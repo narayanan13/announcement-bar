@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "421fe22f201ddb4bfbc3bbaee7abd84e"
+name = "AnnouncementBar"
+handle = "announcementbar-9"
+application_url = "https://societies-gamma-advisor-col.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-d334c3af.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://societies-gamma-advisor-col.trycloudflare.com/auth/callback",
+  "https://societies-gamma-advisor-col.trycloudflare.com/auth/shopify/callback",
+  "https://societies-gamma-advisor-col.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
