@@ -16,8 +16,8 @@ import {
   BlockStack,
   PageActions,
 } from "@shopify/polaris";
-import db from "../db.server"; // Ensure the correct path
-import { getMessage, validateMessage } from "../models/message.server"; // Ensure the correct path
+import db from "../db.server"; 
+import { getMessage, validateMessage } from "../models/message.server"; 
 
 // Loader function to fetch a message based on the ID, or return an empty object for new messages
 export async function loader({ request, params }) {
