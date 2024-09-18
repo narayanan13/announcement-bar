@@ -3,7 +3,7 @@
 client_id = "421fe22f201ddb4bfbc3bbaee7abd84e"
 name = "AnnouncementBar"
 handle = "announcementbar-9"
-application_url = "https://societies-gamma-advisor-col.trycloudflare.com"
+application_url = "https://stand-marked-charter-experience.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://societies-gamma-advisor-col.trycloudflare.com/auth/callback",
-  "https://societies-gamma-advisor-col.trycloudflare.com/auth/shopify/callback",
-  "https://societies-gamma-advisor-col.trycloudflare.com/api/auth/callback"
+  "https://stand-marked-charter-experience.trycloudflare.com/auth/callback",
+  "https://stand-marked-charter-experience.trycloudflare.com/auth/shopify/callback",
+  "https://stand-marked-charter-experience.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
