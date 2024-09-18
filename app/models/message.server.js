@@ -10,6 +10,17 @@ export async function getMessage(id) {
     }
 }
 
+export async function getMessages() {
+    try {
+        return await db.message.findMany({
+            orderBy: { id: 'desc' },
+        });
+    } catch (error) {
+        console.error('Error fetching messages:', error);
+        throw new Error('Error fetching messages');
+    }
+}
+
 export async function createMessage(data) {
     if (!data.messageText) throw new Error('Message text is required');
     try {

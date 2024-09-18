@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "421fe22f201ddb4bfbc3bbaee7abd84e"
-name = "AnnouncementBar"
-handle = "announcementbar-9"
-application_url = "https://mere-organisation-travelers-returning.trycloudflare.com"
+client_id = "a4ac5da9f273e795c07ce8c44e3d68c8"
+name = "Announcement Bar"
+handle = "announcement-bar-78"
+application_url = "https://logistics-rx-noted-accomplish.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://mere-organisation-travelers-returning.trycloudflare.com/auth/callback",
-  "https://mere-organisation-travelers-returning.trycloudflare.com/auth/shopify/callback",
-  "https://mere-organisation-travelers-returning.trycloudflare.com/api/auth/callback"
+  "https://logistics-rx-noted-accomplish.trycloudflare.com/auth/callback",
+  "https://logistics-rx-noted-accomplish.trycloudflare.com/auth/shopify/callback",
+  "https://logistics-rx-noted-accomplish.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
